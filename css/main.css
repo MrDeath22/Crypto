@@ -614,11 +614,16 @@ p {
 @media screen and (min-width: 860px) {
    .team__list {
       display: flex;
-      flex-flow: row;
+      flex-flow: row wrap;
+      text-align: start;
    }
    .team__item {
-      margin: 0 50px;
+      display: flex;
+      flex-flow: row wrap;
       margin-bottom: 20px;
+   }
+   .team__item-img {
+      margin-right: 20px;
    }
    .team__item-title {
       font-size: 20px;
